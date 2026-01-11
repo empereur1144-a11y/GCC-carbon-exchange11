@@ -1,0 +1,30 @@
+{
+    "en": {
+        "dashboard": "Dashboard",
+        "investor_hub": "Investor Hub",
+        "trading": "Spot Trading",
+        "portfolios": "Portfolios",
+        "esg": "ESG Reporting",
+        "retirement": "Retirement",
+        "market_status": "Market Status",
+        "open": "OPEN",
+        "execute_trade": "Execute Trade",
+        "sovereign_disclaimer": "This is a sovereign-ready pilot pending formal approval.",
+        "demo_mode": "Sovereign Pilot Prototype • Virtual Sandbox • Pending Regulatory Sign-off",
+        "verified_institution": "Verified Sovereign Institution"
+    },
+    "ar": {
+        "dashboard": "لوحة القيادة",
+        "investor_hub": "مركز المستثمرين",
+        "trading": "التداول الفوري",
+        "portfolios": "المحافظ الاستثمارية",
+        "esg": "تقارير الحوكمة",
+        "retirement": "التقاعد الكربوني",
+        "market_status": "حالة السوق",
+        "open": "مفتوح",
+        "execute_trade": "تنفيذ صفقة",
+        "sovereign_disclaimer": "هذا نموذج تجريبي سيادي جاهز بانتظار الموافقة الرسمية.",
+        "demo_mode": "نموذج تجريبي سيادي • بيئة افتراضية • بانتظار موافقة الهيئات التنظيمية",
+        "verified_institution": "مؤسسة سيادية معتمدة"
+    }
+}

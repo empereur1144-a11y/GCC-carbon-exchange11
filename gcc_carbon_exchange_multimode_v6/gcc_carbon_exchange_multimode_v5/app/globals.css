@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Cairo:wght@200;300;400;500;600;700;800;900&family=Inter:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 10, 10, 15;
+}
+
+[dir="rtl"] {
+    font-family: 'Almarai', 'Cairo', sans-serif;
+}
+
+[dir="ltr"] {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    color: rgb(var(--foreground-rgb));
+    background: linear-gradient(to bottom,
+            transparent,
+            rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+}
+
+.glass-panel {
+    background: rgba(15, 23, 42, 0.5);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.sovereign-gradient-text {
+    background: linear-gradient(135deg, #10b981 0%, #3b82f6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Custom logical property utilities for older Tailwind versions if fallback needed */
+.inset-is-0 {
+    inset-inline-start: 0;
+}
+
+.border-ie {
+    border-inline-end-width: 1px;
+}
+
+.ps-72 {
+    padding-inline-start: 18rem;
+}
+
+.text-inline-end {
+    text-align: end;
+}
+
+.text-inline-start {
+    text-align: start;
+}
+
+.divide-is {
+    border-inline-start-width: 1px;
+}
